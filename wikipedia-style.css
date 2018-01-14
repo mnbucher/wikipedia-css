@@ -103,6 +103,22 @@
   overflow: none;
 }
 
+#mw-panel * {
+  display: none;
+}
+
+#p-logo,
+#p-lang-label,
+#p-lang,
+#p-lang .body,
+#p-lang ul,
+#p-lang ul .interwiki-en,
+#p-lang ul .interwiki-de,
+#p-lang ul .interwiki-en .interlanguage-link-target,
+#p-lang ul .interwiki-de .interlanguage-link-target {
+  display: block;
+}
+
 
  /* Search */
 
