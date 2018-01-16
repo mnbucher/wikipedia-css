@@ -28,25 +28,34 @@
  }
 
  .mw-body-content p {
-   font-size: 1.2em;
-   line-height: 1.9;
+   font-size: 1.35em;
+   line-height: 1.8;
+   padding-bottom: 0.618em;
    color: #000;
  }
 
  .mw-body h1 {
-   margin-bottom: 0.618em;
+   font-family: "Tiempos Headline Medium", Georgia, serif;
+   margin: 1em 0 1em;
    border: none;
    font-size: 2.618em;
  }
 
+ #siteSub {
+   display: none;
+ }
+
  .mw-body-content h2 {
-   font-size: 1.7798em;
+   font-size: 2em;
+   font-weight: 500;
    margin: 2em 0 0.618em 0;
    border: none;
  }
 
  .mw-body-content h3 {
-   font-size: 1.309em;
+   font-size: 1.618em;
+   font-weight: 600;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", serif;
    margin: 1.618em 0 0.618em;
  }
 
@@ -82,6 +91,10 @@
 
  .sitedir-ltr .mw-dismissable-notice-body {
    margin-right: 0;
+ }
+
+ .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-editsection {
+   display: none;
  }
 
 
