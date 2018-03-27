@@ -97,6 +97,10 @@
    display: none;
  }
 
+ ul li {
+   margin-bottom: 0.618em;
+   font-size: 1.35em;
+ }
 
  /* Header and Navigation */
 
