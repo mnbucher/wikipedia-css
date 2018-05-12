@@ -130,7 +130,14 @@
   overflow: none;
 }
 
-#mw-panel * {
+#p-wikibase-otherprojects,
+#p-coll-print_export,
+#p-tb,
+#p-interaction,
+#p-navigation,
+.after-portlet.after-portlet-lang,
+.uls-settings-trigger
+{
   display: none;
 }
 
