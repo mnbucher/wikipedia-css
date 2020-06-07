@@ -1,8 +1,9 @@
-# Wikipedia Redesign
+# Wikipedia CSS
 
 1. Focus on reading
 2. No disturbing sidebars
 3. Well balanced line-width and font-size
+4. Minimalist, clean layout
 
 🔥 See it in action:
 
