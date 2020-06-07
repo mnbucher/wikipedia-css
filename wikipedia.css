@@ -1,0 +1,260 @@
+ /*
+
+ Clean Wikipedia
+
+ Version: 2020-06-07
+
+ (c) Martin Juan José Bucher
+
+ */
+
+ body {
+  font-family: "Tiempos Text", "Georgia", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", serif;
+  background-color: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mw-body, #content {
+  width: 60%;
+  max-width: 780px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  padding: 4.236em 0;
+}
+
+.mw-body a, #content a {
+  text-decoration: underline;
+}
+
+.mw-body #content {
+  font-size: 1rem;
+}
+
+.mw-body-content p {
+  font-size: 1.3rem;
+  line-height: 1.75;
+  padding-bottom: 0.618em;
+  color: #000;
+}
+
+.mw-body h1 {
+  font-family: "Tiempos Headline Medium", Georgia, serif;
+  margin: 1em 0 1em;
+  border: none;
+  font-size: 2.618em;
+}
+
+#siteSub {
+  display: none;
+}
+
+.mw-body-content h2 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 2em 0 0.618em 0;
+  border: none;
+}
+
+.mw-body-content h3 {
+  font-size: 1.618em;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", serif;
+  margin: 1.618em 0 0.618em;
+}
+
+.mw-body-content h4 {
+  margin: 1em 0 0;
+  font-size: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", serif;
+}
+
+.mw-body-content dt, dd {
+  font-size: 1.3rem;
+  line-height: 1.75;
+}
+
+.mw-body-content dd {
+  margin-bottom: 1em;
+}
+
+.div.thumbinner {
+  background-color: #fff;
+}
+
+#toc, .toc, .mw-warning, .toccolours, .catlinks {
+  background-color: #f5f5f5;
+  border: 1px solid #d2d2d2;
+  padding: 1em 1.618em;
+  margin-top: 2.618em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", serif;
+  font-size: 1.1em;
+}
+
+table.wikitable {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", serif;
+}
+
+#siteNotice {
+  padding-bottom: 1.618em;
+}
+
+.sitedir-ltr .mw-dismissable-notice-body {
+  margin-right: 0;
+}
+
+.mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-editsection {
+  display: none;
+}
+
+ol li, ul li {
+  margin-bottom: 0.618em;
+  font-size: 1.3rem;
+}
+
+.toc ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.309em;
+}
+
+#mw-page-base {
+ background: none;
+}
+
+#left-navigation, #p-views, #p-personal {
+  display: none;
+}
+
+#right-navigation {
+ width: 90%;
+ margin: 0 auto;
+ float: none;
+ max-width: 780px;
+ overflow: none;
+}
+
+#p-wikibase-otherprojects,
+#p-coll-print_export,
+#p-tb,
+#p-interaction,
+#p-navigation,
+.after-portlet.after-portlet-lang,
+.uls-settings-trigger {
+ display: none;
+}
+
+#p-logo,
+#p-lang-label,
+#p-lang,
+#p-lang .body,
+#p-lang ul,
+#p-lang ul .interwiki-en,
+#p-lang ul .interwiki-de,
+#p-lang ul .interwiki-en .interlanguage-link-target,
+#p-lang ul .interwiki-de .interlanguage-link-target {
+ display: block;
+}
+
+div#simpleSearch {
+ width: 100%;
+ -webkit-border-radius: 5px;
+ border-radius: 5px;
+ width: 100%;
+ min-width: 100%;
+ max-width: 100%;
+ margin: 0;
+ margin-top: 2.618em;
+ background: none;
+ height: auto;
+ box-sizing: border-box;
+ background-color: #ffffff;
+ border: none;
+ padding: 0;
+ box-shadow: 0 5px 30px rgba(156, 160, 171, 0.15);
+}
+
+#simpleSearch #searchInput {
+ font-size: 1em;
+ border: 1px solid #dbdbdb;
+ padding: 1.309em 1.618em;
+}
+
+#p-search {
+  margin: 0;
+  width: 100%;
+}
+
+div#simpleSearch #searchButton, div#simpleSearch #mw-searchButton {
+  right: 1.8em;
+}
+
+div.suggestions {
+  font-size: 1em;
+}
+
+.suggestions-results {
+  border: 1px solid #dbdbdb;
+  padding-top: 0.618em;
+}
+
+.suggestions-result {
+  padding: 0.2em 1.618em;
+}
+
+.suggestions-special {
+  padding: 0.618em 1.618em;
+  border: 1px solid #dbdbdb;
+}
+
+.suggestions-result-current {
+  background-color: #fff;
+  color: #333;
+  text-decoration: underline;
+}
+
+#mw-content-text #coordinates, #mw-content-text #editcount, #mw-content-text #issnlink, #mw-content-text #shortcut, body.ns-special #mw-content-text .specialpage-helplink {
+  padding-top: 1.618em;
+}
+
+#catlink {
+  display: none;
+}
+
+div#footer {
+  width: 60%;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1100px) {
+
+  #mw-panel {
+    display: none;
+  }
+
+  .mw-body {
+    width: 80%;
+    padding: 2.618em 0;
+  }
+
+  div#footer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .mw-body {
+    width: 90%;
+  }
+
+  div#footer {
+    width: 90%;
+  }
+}
